@@ -17,7 +17,8 @@ setup(
         'Office365-REST-Python-Client>=2.3.5'
     ],
     author= 'Philipp Karlson',
-    author_email= 'philipp.karlson@myenso.de'
+    author_email= 'philipp.karlson@myenso.de',
+    url='https://github.com/philippkarlson-myenso/test.git',
 )
 
 
