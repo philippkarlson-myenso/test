@@ -13,7 +13,7 @@ setup(
     install_requires=[
         # Hier Ihre Abhängigkeiten, wie in requirements.txt
         'pandas>=1.3.0',
-        'numpy>=1.21.0'
+        'numpy>=1.21.0',
         'Office365-REST-Python-Client>=2.3.5'
     ],
     author= 'Philipp Karlson',
