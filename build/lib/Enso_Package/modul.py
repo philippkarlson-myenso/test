@@ -38,11 +38,12 @@ def set_index(df, index_column):
     df = df.drop(index_column, axis=1)
     return df
 
-# Calculate difference of two dates
+# Calculate difference of two dates in days
 def date_diff(date1, date2):
     date1 = pd.to_datetime(date1)
     date2 = pd.to_datetime(date2)
-    return date1-date2
+    diff = (date1-date2).days
+    return diff
 
 # Read excel-files
 def read_excelfile(dir, file_pattern, sheet_name=None, header=None, cols=None, nrows=None, skiprows=None):
